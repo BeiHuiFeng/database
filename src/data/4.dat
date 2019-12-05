@@ -1,0 +1,18 @@
+minDegree:	4
+id:	4
+isLeaf:	true
+isRoot:	false
+numKey:	6
+degree:	0
+keys:
+0	13
+1	14
+2	15
+3	17
+4	18
+5	19
+childrenID:
+minNodeNumKey	3
+maxNodeNumKey	7
+minNodeDegree	0
+maxNodeDegree	0

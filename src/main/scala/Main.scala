@@ -1,15 +1,13 @@
 
-import BTree.{BPlusTree, Node}
+import java.io.FileWriter
+
+import BTree.{BTree, Node}
 
 object Main {
 	def main(args: Array[String]): Unit = {
-		/*
-		val n: BTree.Node = new BTree.Node(3)
-		for(i <- n.point) {
-			println(i.point)
-		}
-		*/
-
-
+		val btree: BTree = BTree.instance(4, "./src/data/")
+		for(i <- 0 until 20)
+			btree.insert(i)
+		btree.save()
 	}
 }
