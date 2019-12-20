@@ -2,13 +2,16 @@ minDegree:	4
 id:	2
 isLeaf:	true
 isRoot:	false
-numKey:	4
+numKey:	3
 degree:	0
 keys:
 0	4
 1	5
 2	6
-3	11
+values:
+0	name:	ToolMan 4	age:	25	school	ToolSchool 4
+1	name:	ToolMan 5	age:	34	school	ToolSchool 5
+2	name:	ToolMan 6	age:	27	school	ToolSchool 6
 childrenID:
 minNodeNumKey	3
 maxNodeNumKey	7

@@ -8,6 +8,10 @@ keys:
 0	0
 1	1
 2	2
+values:
+0	name:	ToolMan 0	age:	36	school	ToolSchool 0
+1	name:	ToolMan 1	age:	37	school	ToolSchool 1
+2	name:	ToolMan 2	age:	33	school	ToolSchool 2
 childrenID:
 minNodeNumKey	3
 maxNodeNumKey	7
